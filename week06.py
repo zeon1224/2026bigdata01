@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 import numpy as np
 
 # 리스트로 생성 : np.array([1,2,3])
@@ -33,7 +33,7 @@ print(array06)
 
 array07 = np.linspace(0,10,3)
 print(array07)
-=======
+
 # 배열의 구조와 정보를 파악할 때 사용합니다. (arr가 배열일 때)
 # arr.shape: 배열의 크기 (예: (3, 4)는 3행 4열)
 # arr.ndim: 차원 수 (1차원, 2차원 등)
@@ -59,4 +59,3 @@ array01 = np.random.random((4,2))
 print(array01)
 print(array01.shape, array01.dtype, array01.ndim, array01.size)
 print(array01.T)
->>>>>>> dev04
